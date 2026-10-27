@@ -1,71 +1,81 @@
-# 🏛️ Vigyan Workstation (ExperimentLab AI)
+<div align="center">
 
-[![ExperimentLab Official](https://img.shields.io/badge/Laboratory-ExperimentLab.in-38bdf8.svg)](https://experimentlab.in)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-29%20Open%20Models-ffd21e.svg)](https://huggingface.co/shreyansh12183)
-[![License](https://img.shields.io/badge/License-Community%20%26%20Demilitarized-10b981.svg)](https://github.com/Vigyan-workstation/vigyan-workstation/blob/main/LICENSE)
-[![Ethics](https://img.shields.io/badge/Ethics-Civilian%20STEM%20Only-8b5cf6.svg)](https://github.com/Vigyan-workstation/vigyan-workstation/blob/main/LICENSE)
+# 🏛️ Vigyan Workstation
+### The Sovereign Engineering Guild • 100% Offline Physical Engineering AI
 
-> **"Your AI Never Leaves the Room."**  
-> **"Pull the cable. It keeps calculating."**  
-> *Private, air-gapped physical engineering intelligence developed by [ExperimentLab AI](https://experimentlab.in).*
+[![Official Website](https://img.shields.io/badge/Official_Website-experimentlab.in-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://experimentlab.in)
+[![Latest Release](https://img.shields.io/badge/Release-v1.0.0_Community-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/releases/tag/v1.0.0)
+[![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Experimentlab_SLMs-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
+[![Community Discussions](https://img.shields.io/badge/Discussions-Join_The_Guild-7c3aed?style=for-the-badge&logo=githubdiscussions&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/discussions)
 
----
+> *"Here’s to the rebels who build real things in the physical world. The ones who refuse to rent their intelligence by the token. Who pull the plug and keep calculating."*
 
-## 🔬 Welcome to the Vigyan Workstation Community
-
-**Vigyan Workstation** is the open-community engineering wing of **[ExperimentLab](https://experimentlab.in)**. We build sovereign, 100% offline physical engineering desktop tools, exact mathematical intelligence models, and embedded knowledge graphs designed to run on everyday consumer hardware (Intel, AMD, and Apple Silicon with 4GB–8GB RAM).
-
-### 🌐 Official Ecosystem Links
-* **Official Website:** [experimentlab.in](https://experimentlab.in)
-* **Desktop Workstation Preview:** [experimentlab.in/desktop.html](https://experimentlab.in/desktop.html)
-* **Research Papers & Whitepapers:** [experimentlab.in/research/](https://experimentlab.in/research/)
-* **Hugging Face Model Hub (29 Models):** [huggingface.co/shreyansh12183](https://huggingface.co/shreyansh12183)
-* **Enterprise & Custom AI Services:** [experimentlab.in/#services](https://experimentlab.in/#services)
+</div>
 
 ---
 
-## 💻 Flagship Project: `vigyan-workstation`
+## 🌌 The Manifesto of Offline Physical Engineering
 
-The centerpiece of our community is **[vigyan-workstation](https://github.com/Vigyan-workstation/vigyan-workstation)**: an air-gapped desktop workstation (WebKitGTK Linux, WebView2 Windows, Cocoa WKWebView macOS) built with Svelte 5 and Python 3.14.
+Modern AI is broken for physical engineers. Giant cloud monopolies sell probabilistic token predictors behind recurring paywalls, log proprietary CAD and PCB schematics, and stop functioning the moment you disconnect from their datacenters.
+
+**We built Vigyan Workstation for a different kind of builder.**
+
+Vigyan is an open-source, air-gapped desktop engineering studio that pairs domain-specialized Small Language Models (SLMs) with a deterministic Computer Algebra System (SymPy CAS). The language model decomposes the physical problem; the algebraic core guarantees absolute mathematical truth. Zero hallucinated math. Zero telemetry. Zero token fees.
+
+---
+
+## 🛠️ The 4 Sovereign Studios
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │  Vigyan Workstation Shell (100% Air-Gapped · Zero Cloud Egress)        │
-│  • Exact Calculus Proofs: SymPy AST core (Integrals, ODEs, Derivatives)│
-│  • 3D Parametric CAD Studio: Three.js turntable viewport & STL export  │
-│  • 6-DoF Robotics Kinematics: Real-time joint sliders & DH matrices    │
-│  • WaveDrom Hardware Timing: Bus protocols (SPI, I2C, UART, AXI4) & SVG│
-│  • KiCad Electronic Netlists: Schematic netlists & Bill of Materials   │
-│  • Embedded STEM Knowledge Graph: C++ KùzuDB verified physical laws    │
-│  • CPU OCR Ingestion Engine: Offline schematic dimension extraction    │
+│                                                                        │
+│  1. 🦾 6-DoF Robotics Kinematics: Real-time joint sliders & DH matrices │
+│  2. ⚡ WaveDrom Digital Timing: SPI, I2C, UART, CAN logic waveforms    │
+│  3. 📐 SymPy CAS Calculus Truth: Derivatives, integrals, closed-forms  │
+│  4. 🔌 KiCad Electronic Netlists: Schematic graphs & BOM verification  │
 └────────────────────────────────────────────────────────────────────────┘
+```
+
+### 1. 🦾 6-DoF Robotics Kinematics Studio
+Calculate forward and inverse kinematics using Denavit-Hartenberg (DH) parameter matrices in real-time. Visualize robot manipulator joint angles on a 3D canvas offline.
+
+### 2. ⚡ WaveDrom Digital Signal Timing Studio
+Generate interactive, publishable digital logic waveform diagrams for serial protocols (I2C, SPI, UART, CAN, AXI4) directly from natural language or hardware clock specs.
+
+### 3. 📐 Native SymPy CAS Mathematical Engine
+Deterministic symbolic calculus. Differentiates, integrates, solves ordinary differential equations (ODEs), and renders LaTeX equations with zero hallucination.
+
+### 4. 🔌 KiCad Electronic PCB Netlist Studio
+Local parsing and graph analysis of KiCad netlists and schematics. Identify pin conflicts, dangling nets, and verify Bill of Materials (BOM) without cloud egress.
+
+---
+
+## ⚡ Instant Installation (Linux Community Edition)
+
+```bash
+# Clone the repository
+git clone https://github.com/Vigyan-workstation/vigyan-workstation.git
+cd vigyan-workstation
+
+# Run the 100% offline verification test suite (35/35 passing tests)
+pytest tests/
+
+# Launch the desktop studio
+./launch.sh
 ```
 
 ---
 
-## 🕊️ Ethical Non-Military Charter
+## 🏛️ The Sovereign Engineering Guild
 
-Technology created at **ExperimentLab** is dedicated solely to the peaceful advancement of human scientific knowledge, education, and civilian physical engineering.
-
-All software under **Vigyan-workstation** is published under the **ExperimentLab Sovereign Community & Demilitarized License (v1.0)**:
-* **100% Free** for students, educators, academic researchers, and civilian makers.
-* **Strictly Prohibited** in military defense weapons, armed combat, autonomous targeting, munitions, and warfare.
-* **Commercial Enterprise Use** requires a separate commercial agreement from ExperimentLab AI (`contact@experimentlab.in`).
+We believe the greatest engineering tools are crafted out of taste, precision, and respect for user sovereignty.
+* **Join the Community:** Introduce yourself in [GitHub Discussions #1](https://github.com/Vigyan-workstation/vigyan-workstation/discussions/1).
+* **Explore Foundation Weights:** Visit the [Experimentlab Hugging Face Hub](https://huggingface.co/Experimentlab) for 1.58-bit BitNet and MoE models.
+* **Civilian STEM Charter:** 100% free and open for students, researchers, makers, and civilian engineers.
 
 ---
 
-## 🤝 How to Contribute & Submit Pull Requests
-
-We actively welcome community contributions! Whether you are an aerospace engineer adding airfoil presets, an electrical engineer improving KiCad netlists, or a mathematician expanding our physical laws graph:
-
-1. Check out our primary repo: **[vigyan-workstation](https://github.com/Vigyan-workstation/vigyan-workstation)**.
-2. Read [`CONTRIBUTING.md`](https://github.com/Vigyan-workstation/vigyan-workstation/blob/main/CONTRIBUTING.md) and [`AGENTS.md`](https://github.com/Vigyan-workstation/vigyan-workstation/blob/main/AGENTS.md).
-3. Ensure all 35 pytest unit tests pass (`pytest tests/`) and frontend builds cleanly (`bun run build`).
-4. Fork the repo and submit a **Pull Request (PR)**! All contributions are automatically reviewed by the **ExperimentLab Community Manager**.
-
----
-
-### 📬 Contact & Inquiries
-* **General Community & Research:** [contact@experimentlab.in](mailto:contact@experimentlab.in)
-* **Enterprise Deployments & Custom Models:** [experimentlab.in/#contact](https://experimentlab.in/#contact)
-* **Founder & Chief Architect:** [@shreyansh001boy-tech](https://github.com/shreyansh001boy-tech)
+<div align="center">
+  <sub>Crafted with passion by <a href="https://experimentlab.in">ExperimentLab.in</a> • Built for the Crazy Ones.</sub>
+</div>
