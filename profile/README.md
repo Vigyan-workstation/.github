@@ -5,7 +5,7 @@
 
 [![Official Website](https://img.shields.io/badge/Official_Website-experimentlab.in-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://experimentlab.in)
 [![Latest Release](https://img.shields.io/badge/Release-v1.0.0_Community-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/releases/tag/v1.0.0)
-[![Discord Guild](https://img.shields.io/badge/Discord-Join_The_Guild-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZcvQVd55X)
+[![Discord Guild](https://img.shields.io/badge/Discord-Join_The_Guild-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
 [![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Experimentlab_SLMs-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
 [![Community Discussions](https://img.shields.io/badge/Discussions-Join_The_Guild-7c3aed?style=for-the-badge&logo=githubdiscussions&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/discussions)
 
@@ -71,7 +71,7 @@ pytest tests/
 ## 🏛️ The Sovereign Engineering Guild
 
 We believe the greatest engineering tools are crafted out of taste, precision, and respect for user sovereignty.
-* **Join the Live Guild:** [Chat with physical engineers and builders on Discord (https://discord.gg/ZcvQVd55X)](https://discord.gg/ZcvQVd55X).
+* **Join the Live Guild:** [Chat with physical engineers and builders on Discord (https://discord.com/invite/Jck3tD6mhf)](https://discord.com/invite/Jck3tD6mhf).
 * **Introduce Yourself:** Join the discussion in [GitHub Discussions #1](https://github.com/Vigyan-workstation/vigyan-workstation/discussions/1).
 * **Explore Foundation Weights:** Visit the [Experimentlab Hugging Face Hub](https://huggingface.co/Experimentlab) for 1.58-bit BitNet and MoE models.
 * **Civilian STEM Charter:** 100% free and open for students, researchers, makers, and civilian engineers.
