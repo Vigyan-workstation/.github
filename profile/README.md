@@ -5,6 +5,7 @@
 *Incubated by [ExperimentLab](https://experimentlab.in) · Led by Founder & Chief Architect [Shreyansh Singh](https://github.com/shreyansh001boy-tech)*
 
 [![Official Website](https://img.shields.io/badge/Official_Website-experimentlab.in-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://experimentlab.in)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-Strictly_Non--Commercial_(CC_BY--NC--SA_4.0)-red?style=for-the-badge&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Latest Release](https://img.shields.io/badge/Release-v1.0.0_Community-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-workstation/releases/tag/v1.0.0)
 [![Hugging Face Downloads](https://img.shields.io/badge/HF_Model_Downloads-5%2C000%2B-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
 [![Discord Guild](https://img.shields.io/badge/Discord-Join_The_Guild-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
@@ -93,6 +94,17 @@ pytest tests/
 # Launch the desktop studio
 ./launch.sh
 ```
+
+---
+
+## ⚖️ Non-Commercial & Demilitarized Civilian STEM License
+
+All software, models, benchmarks, and research released under **Vigyan Workstation** and **ExperimentLab** are strictly licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license alongside the **ExperimentLab Sovereign Community & Demilitarized License**:
+
+* **Academic, Educational & Personal Research Use Only**: Freely permitted for students, academic researchers, university coursework, self-hosting, and civilian scientific inquiry.
+* **Strictly Non-Commercial Prohibition**: You may not sell, monetize, host as a paid API/SaaS wrapper, bundle with commercial hardware, or use for commercial advantage without prior written enterprise authorization from ExperimentLab AI.
+* **Demilitarized Civilian STEM Restriction**: Strictly prohibited for military, defense, weapons research, autonomous combat, or surveillance systems.
+* **Commercial Enterprise Licensing**: For commercial licensing, enterprise deployment, or institutional partnerships, contact [contact@experimentlab.in](mailto:contact@experimentlab.in).
 
 ---
 
