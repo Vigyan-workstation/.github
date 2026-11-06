@@ -110,7 +110,7 @@ All source code, software binaries, and documentation released across the Vigyan
 * **AI Model Distillation Restriction (Section 8)**: You may not use the software, source code, documentation, or model outputs to train, align, distill, or evaluate competing artificial intelligence or foundation models without prior written permission.
 * **Trademark Protection (Section 9)**: No trademark, service mark, or brand rights in "ExperimentLab AI" or "Vigyan Pro" are granted.
 * **Contributor Certificate of Origin (DCO v1.1)**: All contributions must include a valid `Signed-off-by:` trailer certifying original authorship or proper licensing.
-* **Commercial Enterprise Licensing**: For commercial licensing, enterprise deployment, or OEM hardware distribution, contact **licensing@experimentlab.in**.
+* **Commercial Enterprise Licensing**: For commercial licensing, enterprise deployment, or OEM hardware distribution, contact **support@experimentlab.in**.
 
 ---
 
