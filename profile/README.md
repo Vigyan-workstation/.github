@@ -7,6 +7,7 @@
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Experimentlab-ffd21e?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
 [![Discord](https://img.shields.io/badge/Discord-Experimentlab_Community-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
 [![License](https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0.0-blue.svg?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/blob/main/LICENSE)
+[![Back Research](https://img.shields.io/badge/Back_Research-Buy_Me_A_Chai-d97706?style=flat)](https://buymeachai.in/shreyansh001boy)
 [![CI Matrix](https://img.shields.io/badge/CI_Matrix-Ubuntu_%7C_macOS_%7C_Windows-success?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/actions)
 
 <p align="center">
