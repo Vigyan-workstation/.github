@@ -1,9 +1,9 @@
 <div align="center">
 
 # Vigyan Workstation
-### Sovereign Offline Physical Engineering Intelligence
+### Sovereign Offline Physical Engineering Intelligence & STEM Studio
 
-[![Repository](https://img.shields.io/badge/Flagship_Repository-vigyan--pro_v4.0.0-000000?style=flat&logo=github&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-pro)
+[![Repository](https://img.shields.io/badge/Flagship_Repository-vigyan--pro_v4.1.0-000000?style=flat&logo=github&logoColor=white)](https://github.com/Vigyan-workstation/vigyan-pro)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Experimentlab-ffd21e?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Experimentlab)
 [![Discord](https://img.shields.io/badge/Discord-Experimentlab_Community-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/invite/Jck3tD6mhf)
 [![License](https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0.0-blue.svg?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/blob/main/LICENSE)
@@ -20,7 +20,7 @@
 
 ## Technical Philosophy
 
-Vigyan pairs domain-specialized Small Language Models (SLMs) with a deterministic Computer Algebra System (SymPy CAS).
+Vigyan pairs domain-specialized Small Language Models (SLMs) with a deterministic Computer Algebra System (SymPy CAS) and local multiphysics engines.
 
 While generative neural networks effectively decompose physical problems into mathematical formulations, they are inherently prone to probabilistic arithmetic errors. Vigyan guarantees absolute mathematical truth by executing all calculus, differential equations, and algebraic proofs through an in-process, sandboxed Computer Algebra System AST kernel.
 
@@ -30,28 +30,87 @@ While generative neural networks effectively decompose physical problems into ma
 
 ---
 
-## Flagship Repository: Vigyan Pro v4.0.0
+## Flagship Repository: Vigyan Pro v4.1.0 (Sovereign Engineering Edition)
 
 The flagship workstation is actively developed and maintained in **[Vigyan-workstation/vigyan-pro](https://github.com/Vigyan-workstation/vigyan-pro)**.
 
-### Core Capabilities
+### 1-Click Multi-OS Installation
 
-1. **Deterministic Computer Algebra Engine**:
+#### Linux (Debian / Ubuntu / Pop!_OS / Mint)
+```bash
+# Download official release package & install
+wget https://github.com/Vigyan-workstation/vigyan-pro/releases/download/v4.1.0/vigyan-pro_4.1.0_amd64.deb
+sudo apt install ./vigyan-pro_4.1.0_amd64.deb
+
+# Launch workstation
+vigyan-pro
+```
+
+#### Linux Portable Archive (Arch, Fedora, openSUSE, RHEL)
+```bash
+wget https://github.com/Vigyan-workstation/vigyan-pro/releases/download/v4.1.0/vigyan-pro-4.1.0.tar.gz
+tar -xzf vigyan-pro-4.1.0.tar.gz
+cd vigyan-pro-4.1.0 && ./vigyan-pro
+```
+
+#### Windows 10/11 (PowerShell / Command Prompt)
+```powershell
+# Extract release zip and double-click Vigyan-Pro.bat (powered by Microsoft Edge WebView2)
+Expand-Archive -Path vigyan-pro-4.1.0.zip -DestinationPath C:\VigyanPro
+cd C:\VigyanPro
+.\Vigyan-Pro.bat
+```
+
+#### macOS (Apple Silicon & Intel)
+```bash
+# Extract and launch native Apple Cocoa WKWebView studio
+tar -xzf vigyan-pro-4.1.0.tar.gz
+cd vigyan-pro-4.1.0
+./Vigyan-Pro.command
+```
+
+---
+
+### Core Capabilities (v4.1.0)
+
+1. **Deterministic Computer Algebra Engine (SymPy CAS)**:
    In-process SymPy AST kernel with strict sandboxing against arbitrary code injection or namespace pollution.
    ```bash
    vigyan math "diff(sin(x)*exp(x), x)"
    vigyan math "solve(x**2 - 5*x + 6, x)"
    ```
 
-2. **First-Class GGUF Model Management CLI**:
-   Discovers local models, calculates host RAM headroom, and pulls verified quantized weights directly from Hugging Face Hub:
+2. **Parametric 3D CAD & Mesh Generation**:
+   Integrated `build123d` and `OpenCASCADE` engine generating manufacturing-ready STL solid meshes on-device, rendered in an interactive Three.js turntable viewport.
+   ```bash
+   vigyan cad "box(10, 20, 30) - cylinder(r=3, h=30)"
+   ```
+
+3. **SciPy RK45 Multiphysics Simulation**:
+   Adaptive ODE numerical solver returning full 100-point ballistic drag and oscillator trajectories with interactive 60 FPS browser sliders.
+   ```bash
+   vigyan sim "d2x/dt2 + 0.1*dx/dt + 9.8*sin(x) = 0"
+   ```
+
+4. **RDKit Cheminformatics & Dimensional Algebra**:
+   Molecular descriptor evaluation (MW, LogP, TPSA, HBD, HBA), vector SVG bond rendering, and rigorous dimensional verification via Pint & Astropy:
+   ```bash
+   vigyan chem "CC(=O)Oc1ccccc1C(=O)O"
+   vigyan unit "100 km/h to m/s"
+   ```
+
+5. **Typst Vector PDF Compiler (<50ms)**:
+   Embedded Rust compiler generating publication-ready vector academic papers with embedded SymPy verification badges, replacing heavy 2 GB TeXLive dependencies.
+
+6. **First-Class GGUF Model Management & Local Supervisor**:
+   Discovers local models, calculates host RAM headroom, manages embedded `llama-server` on loopback with automatic 10-minute idle memory reclamation.
    ```bash
    vigyan model status
    vigyan model list --remote
-   vigyan model pull vigyan-2b-reasoning-q4_k_m.gguf
+   vigyan model pull vigyan-3b-quad-master-iq3_m.gguf
    ```
 
-3. **Autonomous Learning Ledger**:
+7. **Autonomous Learning Ledger**:
    Dynamic in-context rule learning backed by a lightweight, reversible git ledger:
    ```bash
    vigyan learn "Always derive equations in SI units before evaluating numbers"
@@ -59,8 +118,8 @@ The flagship workstation is actively developed and maintained in **[Vigyan-works
    vigyan undo
    ```
 
-4. **Multi-OS Desktop Workstation**:
-   Native desktop application powered by WebKitGTK and modern reactive UI components, with full cross-platform CI coverage across Ubuntu, macOS (Apple Silicon), and Windows.
+8. **Multi-OS Native Desktop Shells**:
+   Native desktop application powered by WebKitGTK (Linux), Microsoft Edge WebView2 (Windows), and Apple Cocoa WKWebView (macOS) with modern reactive Svelte 5 UI components.
 
 ---
 
