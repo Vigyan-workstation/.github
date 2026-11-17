@@ -9,6 +9,7 @@
 [![Discord](https://img.shields.io/badge/Community-ExperimentLab-000000?style=flat&logo=discord&logoColor=5865F2)](https://discord.com/invite/Jck3tD6mhf)
 [![License](https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0.0-000000.svg?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/blob/main/LICENSE)
 [![CI Matrix](https://img.shields.io/badge/CI_Matrix-Ubuntu_%7C_macOS_%7C_Windows-success?style=flat)](https://github.com/Vigyan-workstation/vigyan-pro/actions)
+[![Support Research](https://img.shields.io/badge/Sponsor-Buy_Me_A_Chai-000000?style=flat&logo=coffeescript&logoColor=white)](https://buymeachai.in/shreyansh001boy)
 
 <p align="center">
   <b>100% offline, privacy-first desktop workstations and domain-specialized foundation models engineered for physical engineers, mathematicians, and institutional research labs.</b>
@@ -98,6 +99,16 @@ curl -fsSL https://experimentlab.in/uninstall.sh | bash
 | :--- | :--- | :---: |
 | **[vigyan-pro](https://github.com/Vigyan-workstation/vigyan-pro)** | Flagship Sovereign Desktop Software (Multi-OS) | `Active` |
 | **[.github](https://github.com/Vigyan-workstation/.github)** | Organization Profile & Sovereign Standards | `Active` |
+
+---
+
+## Research Compute Sponsorship
+
+To support our continuous TPU pretraining runs, open-weight model releases, and zero-egress workstation development:
+
+[![Support via Buy Me A Chai](https://img.shields.io/badge/Back_Independent_Compute-Buy_Me_A_Chai-FF813F?style=for-the-badge&logo=coffeescript&logoColor=white)](https://buymeachai.in/shreyansh001boy)
+
+**Direct Patronage**: [buymeachai.in/shreyansh001boy](https://buymeachai.in/shreyansh001boy)
 
 ---
 
